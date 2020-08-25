@@ -67,7 +67,7 @@ class LearnjavaApplicationTests {
     void testEnum(){
         HumanEnum humanEnum1 = HumanEnum.MAN;
         HumanEnum humanEnum2 = HumanEnum.WOMEN;
-        System.out.println("第一个人是"+humanEnum1.getName());
+        System.out.println("第一个人是"+humanEnum2.getName());
         System.out.println(new Date((new Date()).getTime() + 600000));
     }
     @Test
